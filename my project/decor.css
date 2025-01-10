@@ -1,0 +1,101 @@
+header{
+    background-color: rgb(236, 14, 207);
+    padding: 70px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    text-decoration: none;
+    justify-items: center;
+    position: sticky;
+    width: 100%;
+    background-color: rgba(133, 57, 196, 0.575);
+    padding: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    position: sticky;
+    font-weight: bold;
+}
+p{
+  margin: 15px;
+
+}
+footer{
+    background-color: rgb(255, 37, 255);
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-right:0px ;
+    padding-right: 0px;
+}
+.H,.G ,.A , .B ,.C , .D ,.E ,.F,.J,.K{
+    background-color: aliceblue;   
+
+}
+.animation{
+    background-size: 100%;
+     animation: move 10s linear infinite;
+     margin: 20px;
+     color: white;
+     font-size: 60px;
+     text-align: center;
+     transition: ease-in;
+     font-weight: bold;
+     box-shadow: 10px 10px 8px grey;
+     background-repeat: no-repeat;
+     height: 300px;
+     margin-top: 30px;
+     margin-bottom: 10%;
+}
+h1{
+    font-weight: bold;
+    color: rgb(252, 21, 183);
+    text-align: center;
+    font-size: 80PX;
+}
+button{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgb(252, 21, 183);
+    color: WHITE;
+}
+@keyframes move{
+    0%{background-image: url(NAIL2.jpeg);}
+    30%{background-image: url(make.jpeg);}
+    60%{background-image: url(BODY.jpeg);}
+    100%{background-image: url(lip.jpeg);}
+}
+h4{
+    font-size: 10px;
+}
+img{
+    width: 217px;
+    height: 400px;
+    border: 0.5px solid grey;
+    
+}
+h2{
+    text-align: center;
+}
+.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8,.item9,.item10{
+    border: 0.5px solid grey;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+   margin: 20PX;
+   gap: 30px;
+}
